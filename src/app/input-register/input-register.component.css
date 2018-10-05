@@ -1,0 +1,13 @@
+#input {
+    margin-top: 3%;
+    margin-left: 2%;
+    border: solid;
+    border-width: thin;
+    border-radius: 7px;
+    height: 41px;
+    width: 30%;
+  }
+
+  ::placeholder {
+    font-size: 19px;
+  }

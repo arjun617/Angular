@@ -1,0 +1,17 @@
+
+.text{
+    display: block;
+    font-size: 20px;
+    margin-left:11%;
+    margin-top:3%;
+}
+
+.image{
+    display: block;
+}
+
+.people{
+    position: absolute;
+    top:90px;
+    margin-left: 11%;
+}

@@ -1,0 +1,33 @@
+.top{
+    background: #5F7BB5;
+    height: 80px;
+}
+
+.bottom{
+    background-image: url('../assets/background.jpg');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    position: absolute;
+    top:80px;
+    height: 90%;
+    width: 100%
+}
+
+.right{
+    float:right;
+    width:50%;
+    height: 100%;
+}
+
+.footer{
+    position: absolute;
+    top:660px;
+    width: 100%
+}
+
+.footer .text{
+    margin-left:11%;
+}
+
+
+

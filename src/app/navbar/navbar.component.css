@@ -1,0 +1,59 @@
+.logo{
+    color:white;
+    font-size: 40px;
+    margin-left:11%;
+    position: absolute;
+    top: 20px;
+}
+
+.user-label{
+    color:white;
+    font-size: 12px;
+    display: block;
+    position: absolute;
+    top:10px;
+    left: 60%;
+}
+
+.input-user{
+    display: block;
+    position: absolute;
+    top:30px;
+    left: 60%;
+    border: 1px solid black
+}
+
+.pass-label{
+    color:white;
+    font-size: 12px;
+    display: block;
+    position: absolute;
+    top:10px;
+    left: 73%;
+}
+
+.input-password{
+    display: block;
+    position: absolute;
+    top:30px;
+    left: 73%;
+    border: 1px solid black
+}
+
+a{
+    color:whitesmoke;
+    font-size: 11px;
+    display: block;
+    position: absolute;
+    top:57px;
+    left: 73%;
+}
+
+.log-in{
+    position: absolute;
+    top:30px;
+    left: 86%;
+    border:1px dotted black;
+    background-color: #7884BE;
+    color: whitesmoke;
+}

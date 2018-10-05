@@ -1,0 +1,55 @@
+<span id="createtext">
+  <b>Create an account</b>
+</span>
+<span id="free">
+  It's free and always will be.
+</span>
+<div class="row1">
+  <span class="firstName">
+    <app-input-register [place]="FirstName"></app-input-register>
+  </span>
+  <span class="lastName">
+    <app-input-register [place]="LastName"></app-input-register>
+  </span>
+</div>
+<div class="row1">
+  <span id="contact">
+    <app-input-register-large [place]="Contact"></app-input-register-large>
+  </span>
+</div>
+<div class="row1">
+  <span id="contact">
+    <app-input-register-large [place]="NewPass"></app-input-register-large>
+  </span>
+</div>
+<div>
+  <span id="birthday">
+    Birthday
+  </span>
+  <span id="date">
+    <app-dropdown [menu]="dates"></app-dropdown>
+  </span>
+  <span id="month">
+    <app-dropdown [menu]="months"></app-dropdown>
+  </span>
+  <span id="year">
+    <app-dropdown [menu]="years"></app-dropdown>
+  </span>
+  <span id="info">
+    <a href="">Why do I need to provide my <br>date of birth?</a>
+  </span>
+</div>
+<div id="radios">
+    <app-radiobutton [gender]="gender[0]"></app-radiobutton>
+    <app-radiobutton [gender]="gender[1]"></app-radiobutton>
+    <app-radiobutton [gender]="gender[2]"></app-radiobutton>
+</div>
+<div id="policy">
+    By clicking Sign Up, you agree to our <a>Terms</a>, <a>Data Policy</a> and <a>Cookie Policy</a>. You may receive SMS notifications from us and can opt out at any time.
+</div>
+
+<button id="signup">Sign Up</button>
+
+<span id="page">
+  <a>Create a Page</a> for a celebrity, band or business.
+</span>
